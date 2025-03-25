@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="static.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">AskME</div>
+        <div class="header-search">
+            <input type="text" placeholder="Search..." class="header-search-input">
+            <button class="button-search">Search</button>
+        </div>
+        <div class="account-actions">
+            <button class="button-login">Log in</button>
+            <button class="button-signup">Sign up</button>
+        </div>
+    </nav>
+    <div class="main-container">
+        <div class="sorted-mode">
+            <a class="active-sorted">New questions</a>
+            <a class="inactive-sorted" href="test"  >Hot questions</a>
+        </div>
+        <div class="content-block">
+            <div class="question-container">
+                <div class="question">
+                    <img src="static/avatar.jpg" alt="Фото профиля" class="profile-image">
+                    <div class="question-info">
+                        <div class="question-text">CMake can't find my Android NDK library file in Flutter project</div>
+                        <div class="question-text-mini">CMake can't find my Android NDK library file in Flutter project I'm trying to integrate a C++ library with Flutter using FFI. I have a pre-compiled libMesh.so file and want to create a wrapper ...</div>
+                        <div class="question-footer">
+                            <div class="question-tags">
+                                <span class="tag">black-jack</span>
+                                <span class="tag">bender</span>
+                                <span class="tag">bender</span>
+                            </div>
+                            <div class="raiting-answers-container">
+                                <div class="raiting-box">
+                                        <div class="like-button">
+                                            <img src="static/raiting_buttons/like.svg" alt="Like" class="like-button">
+                                        </div>
+                                        <div class="raiting-counter">256</div>
+                                    <div class="dislike-button">
+                                        <img src="static/raiting_buttons/dislike.svg" alt="Dislike" class="dislike-button">
+                                    </div>
+                                </div>
+                                <button class="answers-button">0 Answers</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="tags-users-block">
+                <div class="popular-tags">
+                    <h3>Popular tags</h3>
+                    <a>black-jack</a>
+                    <a>bender</a>
+                    <a>Python</a>
+                    <a>C#</a>
+                    <a>Go</a>
+                    <a>C++</a>
+                    <a>HTML</a>
+                </div>
+                <div class="best-members">
+                    <h3>Best members</h3>
+                    <a>Vasya Pupkin</a>
+                    <a>Vasya Pupkin</a>
+                    <a>Vasya Pupkin</a>
+                    <a>Vasya Pupkin</a>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
